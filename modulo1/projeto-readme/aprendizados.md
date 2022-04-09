@@ -1,0 +1,2 @@
+#Aprendizados da semana
+Durante a semana eu aprendi a usar o terminal, alguns comando básicos. Entendi a diferença entre os terminais do UBUNTU E DO Windos. Neste caso, a diferença entre Git Bash e CMD foram as mais evidentes. Além disso, aprendi sobre git e gitHub, aprendi a fazer PRs e commits. Além disso, a palestra sobre machismo nos colocou a par das **dificuldades** encontradas pelas mulheres.
