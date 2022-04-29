@@ -1,0 +1,12 @@
+if (tJogo == 'DO' && etJogo == 'SF' && categoria == 1) {
+  let valorIndividual = 1320;
+  let valorTotal = valorIndividual * qingressos;
+  console.log(`---Dados da compra---\n
+  Nome do cliente: ${nameCli}\n
+  Tipo do jog: Nacional\n
+  Categoria: ${categoria}\n
+  Quantidade de Ingressos: ${qingressos}\n
+  -----Valores----\n
+  Valor do Ingresso: R$ ${valorIndividual}\n
+  valor total: R$ ${valorTotal}`);
+}
