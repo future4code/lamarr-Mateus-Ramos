@@ -13,7 +13,10 @@ function retornaArrayInvertido(array) {
 }
 
 // EXERCÍCIO 03
-function retornaArrayOrdenado(array) {}
+function retornaArrayOrdenado(array) {
+  let arrayOrdenado = array;
+  return arrayOrdenado.sort();
+}
 
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {}
