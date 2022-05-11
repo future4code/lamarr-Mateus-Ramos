@@ -14,8 +14,9 @@ function retornaArrayInvertido(array) {
 
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {
-  let arrayOrdenado = array;
-  return arrayOrdenado.sort();
+  let arrayOrd = array.filter((item) => {
+    return item.sort();
+  });
 }
 
 // EXERCÍCIO 04
