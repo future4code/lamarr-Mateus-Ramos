@@ -130,11 +130,29 @@ function retornaPessoasAutorizadas(pessoas) {
   return pessoasA;
 }
 
-// EXERCÍCIO 13B
-function retornaPessoasNaoAutorizadas(pessoas) {}
+//XERCÍCIO 13B
+function retornaPessoasNaoAutorizadas(pessoas) {
+  let pessoasNaoAutorizadas = [];
+  for (item of pessoas) {
+    if (item.altura < 1.5 || item.idade <= 14 || item.idade > 60) {
+      pessoasNaoAutorizadas.push(item);
+    }
+  }
+  return pessoasNaoAutorizadas;
+}
 
 // EXERCÍCIO 14
-function retornaContasComSaldoAtualizado(contas) {}
+function retornaContasComSaldoAtualizado(contas) {
+  for (item of contas) {
+    let dividaTotal = 0;
+    for (devedor of item.compras) {
+      dividaTotal += devedor;
+    }
+    item.saldoTotal -= dividaTotal;
+    item.compras = [];
+  }
+  return contas;
+}
 
 // EXERCÍCIO 15A
 function retornaArrayOrdenadoAlfabeticamente(consultas) {}
