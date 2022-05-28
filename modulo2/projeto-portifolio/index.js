@@ -4,7 +4,7 @@ setTimeout(function(){
     
     a.style="display:none"
     
-    }, 3000);
+    }, 5000);
 
     setTimeout(function(){
         let b = document.getElementById("initi_2")
