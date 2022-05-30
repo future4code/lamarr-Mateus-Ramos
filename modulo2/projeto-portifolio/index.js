@@ -4,12 +4,12 @@ setTimeout(function(){
     
     a.style="display:none"
     
-    }, 5000);
+    }, 3000);
 
     setTimeout(function(){
         let b = document.getElementById("initi_2")
         
         b.style = "display:block"
 
-        }, 3500);
+        }, 3100);
 
